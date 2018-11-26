@@ -1,0 +1,19 @@
+<!--pages/newindex/newindex.wxml-->
+<text>pages/newindex/newindex.wxml</text>
+
+<navigator class='looks-view' wx:for="{{list1}}" wx:key="index"  url="../draw/draw?id={{item.id}}&imgUrl={{item.src}}">
+跳转至新页面
+     <image src='{{item.src}}' class='looks-view-image'></image>
+     <text class='looks-view-text'>{{item.name}}</text>
+</navigator>
+
+<!-- <view class='list'>
+  <view class='item' wx:for="{{list2}}">
+     {{index}}--  {{item}}
+  </view>
+
+</view> -->
+..................................................................
+<view>
+<image src='{{srcUrl}}'></image>
+</view>
